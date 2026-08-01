@@ -1,66 +1,61 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Jongsolee Pages",
-  description: "필요할 때 만들고, 꺼내 쓰는 개인 웹페이지 모음",
+  description: "가족과 함께 검토하고 정리하는 페이지 모음",
 };
 
 export default function PageHub() {
   return (
-    <main className="hub-page">
-      <header className="hub-header hub-shell">
-        <span className="hub-logo">JONGSOLEE / PAGES</span>
-        <span>PERSONAL WEB COLLECTION</span>
+    <main className="pages-home">
+      <header className="pages-header site-shell">
+        <strong>JONGSOLEE PAGES</strong>
+        <span>가족과 함께 보는 페이지 모음</span>
       </header>
 
-      <section className="hub-hero hub-shell">
-        <div>
-          <p className="hub-kicker">A SMALL COLLECTION OF USEFUL PAGES</p>
-          <h1>필요할 때 만들고,<br /><em>꺼내 쓰는</em> 페이지들</h1>
-        </div>
-        <p className="hub-intro">
-          여행 비교부터 개인 프로젝트까지, 목적이 분명한 웹페이지를 한곳에 모읍니다.
+      <section className="pages-intro site-shell">
+        <p className="overline">PERSONAL WEB COLLECTION</p>
+        <h1>필요한 자료를<br />한곳에서 같이 봅니다.</h1>
+        <p>
+          여행 준비와 비교 자료를 주제별로 나누고, 결정이 바뀌면 계속 업데이트합니다.
         </p>
       </section>
 
-      <section className="hub-content hub-shell">
-        <div className="hub-section-head">
-          <h2>Pages</h2>
-          <span>01 page</span>
+      <section className="site-shell pages-list" aria-labelledby="pages-title">
+        <div className="section-title-row">
+          <h2 id="pages-title">진행 중인 페이지</h2>
+          <span>1개</span>
         </div>
 
-        <a className="project-card" href="/danang-2027/">
-          <div className="project-cover">
+        <Link className="travel-project-card" href="/danang-2027/">
+          <div className="travel-project-image">
             <img
-              src="https://fusionresorts.com/danang/wp-content/uploads/2024/07/Three-Bedroom-Premium-Pool-Villa-12-scaled.jpg"
-              alt="다낭 프라이빗 풀빌라"
+              src="https://dmaevvtdousx6.cloudfront.net/uploads/2018/08/1b.1.jpg"
+              alt="다낭 오션 빌라 3베드룸 풀빌라"
             />
-            <span className="project-status">DRAFT · REVIEWING</span>
+            <span>검토 중</span>
           </div>
-          <div className="project-copy">
-            <p className="project-type">TRAVEL · FAMILY · COMPARISON REPORT</p>
-            <h3>2027 설<br />다낭 풀빌라<br />최종 3선</h3>
+          <div className="travel-project-copy">
+            <p className="overline">FAMILY TRIP · FEB 2027</p>
+            <h2>2027 설<br />다낭 가족여행</h2>
             <p>
-              성인 5명과 6세 어린이 2명을 위한 숙소 중심 비교. 실제 사진, 가격 현실성,
-              리조트 완성도와 최소 동선을 한 페이지에 정리했습니다.
+              숙소, 일정, 액티비티와 준비물을 각각 나눠 가족이 함께 검토하는 여행 허브입니다.
             </p>
-            <div className="project-meta">
-              <span>3박 4일</span>
-              <span>3 BEDROOMS</span>
-              <span>PRIVATE POOL</span>
-            </div>
-            <span className="project-open">페이지 열기 →</span>
+            <dl>
+              <div><dt>기간</dt><dd>2027. 2. 4–8 · 4박</dd></div>
+              <div><dt>인원</dt><dd>성인 5 · 6세 어린이 2</dd></div>
+              <div><dt>현재</dt><dd>숙소 후보 검토 중</dd></div>
+            </dl>
+            <span className="text-link">여행 준비실 열기 →</span>
           </div>
-        </a>
-
-        <p className="hub-empty">새 페이지가 생기면 이곳에 같은 방식으로 추가됩니다.</p>
+        </Link>
       </section>
 
-      <footer className="hub-footer hub-shell">
+      <footer className="pages-footer site-shell">
         <span>jongsolee.github.io</span>
-        <span>Built for useful decisions.</span>
+        <span>내용은 검토 과정에서 계속 바뀝니다.</span>
       </footer>
     </main>
   );
 }
-
