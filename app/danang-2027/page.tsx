@@ -18,6 +18,15 @@ const sections = [
     meta: "최종 1순위 · The Ocean Villas",
   },
   {
+    href: "/danang-2027/stays-b/",
+    label: "숙소 B안",
+    status: "신규 검토",
+    statusTone: "review",
+    title: "리조트 2박 + 풀빌라 2박",
+    description: "A팀 선입실과 B팀 금요일 합류를 반영해 리조트 방 2개를 2박 쓰고 풀빌라로 옮기는 조합을 비교합니다.",
+    meta: "현재 1순위 · Meliá + The Ocean Villas",
+  },
+  {
     href: "/danang-2027/itinerary/",
     label: "일정",
     status: "준비 중",

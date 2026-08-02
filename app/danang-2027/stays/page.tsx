@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TripHeader from "../_components/TripHeader";
 import StayMap from "../_components/StayMap";
+import StayPlanTabs from "../_components/StayPlanTabs";
 
 export const metadata: Metadata = {
   title: "다낭 숙소 후보 검토",
@@ -683,6 +684,7 @@ export function StaysPageContent({ locale }: { locale: "ko" | "en" }) {
   return (
     <main className="trip-page stays-page" lang={locale}>
       <TripHeader active="stays" locale={locale} />
+      <StayPlanTabs active="a" locale={locale} />
 
       <section className="stays-hero">
         <img src="https://dmaevvtdousx6.cloudfront.net/uploads/2018/08/1b.1.jpg" alt={copy.heroAlt} />

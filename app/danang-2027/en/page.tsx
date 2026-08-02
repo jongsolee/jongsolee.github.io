@@ -18,6 +18,15 @@ const sections = [
     meta: "Current No. 1 · The Ocean Villas",
   },
   {
+    href: "/danang-2027/en/stays-b/",
+    label: "Stay Plan B",
+    status: "New review",
+    statusTone: "review",
+    title: "Resort 2 nights + pool villa 2 nights",
+    description: "Compares two resort rooms for two nights followed by two pool-villa nights, reflecting Team A's early arrival and Team B joining Friday.",
+    meta: "Current No. 1 · Meliá + The Ocean Villas",
+  },
+  {
     href: "/danang-2027/en/itinerary/",
     label: "Itinerary",
     status: "Coming soon",

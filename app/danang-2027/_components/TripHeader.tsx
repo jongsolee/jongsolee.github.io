@@ -3,6 +3,7 @@ import Link from "next/link";
 type TripHeaderProps = {
   active?: "home" | "stays" | "itinerary" | "activities" | "checklist";
   locale?: "ko" | "en";
+  languageSegment?: string;
 };
 
 const routeSegments = {
@@ -13,13 +14,13 @@ const routeSegments = {
   checklist: "checklist/",
 } as const;
 
-export default function TripHeader({ active = "home", locale = "ko" }: TripHeaderProps) {
+export default function TripHeader({ active = "home", locale = "ko", languageSegment }: TripHeaderProps) {
   const english = locale === "en";
   const base = english ? "/danang-2027/en/" : "/danang-2027/";
   const labels = english
     ? { home: "Trip home", stays: "Stay", itinerary: "Itinerary", activities: "Activities", checklist: "Checklist" }
     : { home: "여행 홈", stays: "숙소", itinerary: "일정", activities: "액티비티", checklist: "준비물" };
-  const currentSegment = routeSegments[active];
+  const currentSegment = languageSegment ?? routeSegments[active];
 
   return (
     <header className="trip-header">

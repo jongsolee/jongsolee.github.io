@@ -11,7 +11,7 @@ export type StayLocation = {
   longitude: number;
 };
 
-export default function StayMap({ locations, label = "다낭 숙소 후보 위치 지도" }: { locations: StayLocation[]; label?: string }) {
+export default function StayMap({ locations, label = "다낭 숙소 후보 위치 지도" }: { locations: readonly StayLocation[]; label?: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
