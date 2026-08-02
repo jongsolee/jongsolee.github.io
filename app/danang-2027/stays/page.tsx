@@ -18,9 +18,9 @@ const candidates = [
     name: "The Ocean Villas",
     sub: "Managed by The Ocean Resort",
     images: [
-      "https://pix8.agoda.net/hotelImages/267905/-1/f49439f98a9e017fa6d0499a1f5e1c3d.png?ce=0&s=1024x768",
-      "https://pix8.agoda.net/property/48860712/0/efe960f47ebfd6827abf0e8089076034.jpeg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/267905/3127089/d8969035667f140dc8dcf2e4b69401c0.jpeg?s=600x",
+      "/danang-2027/stays-a/ocean-1.png",
+      "/danang-2027/stays-a/ocean-2.jpg",
+      "/danang-2027/stays-a/ocean-3.jpg",
     ],
     status: "예산 근접",
     tone: "available",
@@ -36,9 +36,9 @@ const candidates = [
     name: "Luxury Family Beach Da Nang",
     sub: "Furama 단지 · 사설 운영",
     images: [
-      "https://pix8.agoda.net/hotelImages/2601993/-1/86a8bdd89c9452ecd5ac2b95f14026e1.jpg?ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/62de1eaf7b1dade7336dd2cc8b14093e.jpg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/af45924b1606cc8d9aeaeeb39a8c6a34.jpg?ce=0&s=600x",
+      "/danang-2027/stays-a/furama-1.jpg",
+      "/danang-2027/stays-a/furama-2.jpg",
+      "/danang-2027/stays-a/furama-3.jpg",
     ],
     status: "특가 관찰",
     tone: "watch",
@@ -54,9 +54,9 @@ const candidates = [
     name: "Abogo Resort Villas Luxury",
     sub: "Furama 단지 · 사설 운영",
     images: [
-      "https://pix8.agoda.net/hotelImages/25972885/-1/66e1d4bbc877ffd8ba481e2edcc76f96.jpg?ca=20&ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/25972885/689622160/5ee1d96893af19fbb5b894c2f9b63962.jpg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/25972885/-1/694131d196944c44c77c5903284964a1.jpg?ca=20&ce=0&s=600x",
+      "/danang-2027/stays-a/abogo-1.jpg",
+      "/danang-2027/stays-a/abogo-2.jpg",
+      "/danang-2027/stays-a/abogo-3.jpg",
     ],
     status: "조건 확인",
     tone: "watch",
@@ -72,9 +72,9 @@ const candidates = [
     name: "Aurora Villa",
     sub: "미케비치 인근 도심형 단독 빌라",
     images: [
-      "https://pix8.agoda.net/hotelImages/76235929/0/b9aabfeded7e5250e84e099995ceba0b.jpg?ce=2&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/76235929/0/af1c7922e5582f9b398440845c9211bf.jpg?ce=2&s=600x",
-      "https://pix8.agoda.net/hotelImages/76235929/0/ce081e782a484484187690853b51bc7d.jpg?ce=2&s=600x",
+      "/danang-2027/stays-a/aurora-1.jpg",
+      "/danang-2027/stays-a/aurora-2.jpg",
+      "/danang-2027/stays-a/aurora-3.jpg",
     ],
     status: "예산 안전판",
     tone: "available",
@@ -90,9 +90,9 @@ const candidates = [
     name: "Naman Retreat",
     sub: "3베드룸 아파트 기준",
     images: [
-      "https://pix8.agoda.net/hotelImages/761550/0/c03f74cb0f3e24a1cf9dfb698126b6ae.jpg?ce=2&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/761550/-1/d1a0616379e68ffa0905bf17a4ec45d2.jpg?ca=9&ce=1&s=600x",
-      "https://pix8.agoda.net/hotelImages/761550/0/e6c16c17ae7c607f36e5f5f8e9e9fccf.jpg?ce=2&s=600x",
+      "/danang-2027/stays-a/naman-1.jpg",
+      "/danang-2027/stays-a/naman-2.jpg",
+      "/danang-2027/stays-a/naman-3.jpg",
     ],
     status: "비교 후보",
     tone: "over",
@@ -108,9 +108,9 @@ const candidates = [
     name: "Danang Ocean Beach Resort",
     sub: "Ocean Villas 단지 · 2BR 아파트",
     images: [
-      "https://pix8.agoda.net/hotelImages/34247240/-1/888c9fbcb13e5f21f81d8cc9fd2c600a.jpg?ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/34247240/0/ed6aee9824396053a3fc2862c98e1f82.jpeg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/34247240/565889962/27bcef741a58ed313a4a81439d20388b.jpeg?ce=0&s=600x",
+      "/danang-2027/stays-a/ocean-beach-1.jpg",
+      "/danang-2027/stays-a/ocean-beach-2.jpg",
+      "/danang-2027/stays-a/ocean-beach-3.jpg",
     ],
     status: "예산 대안",
     tone: "available",
@@ -234,9 +234,9 @@ const finalists = [
     price: "현재 표시 약 2,085,300원",
     target: "예약 목표 ≤ 2,000,000원",
     images: [
-      "https://dmaevvtdousx6.cloudfront.net/uploads/2018/08/1b.1.jpg",
-      "https://pix8.agoda.net/property/48860712/0/efe960f47ebfd6827abf0e8089076034.jpeg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/267905/3127089/d8969035667f140dc8dcf2e4b69401c0.jpeg?s=600x",
+      "/danang-2027/stays-a/ocean-1.png",
+      "/danang-2027/stays-a/ocean-2.jpg",
+      "/danang-2027/stays-a/ocean-3.jpg",
     ],
     facts: [
       "373㎡ · 침실 3 · 욕실 3 · 전용 수영장",
@@ -273,9 +273,9 @@ const finalists = [
     price: "일반 참고가 4박 140–180만 원대",
     target: "설 연휴 목표 ≤ 2,000,000원",
     images: [
-      "https://pix8.agoda.net/hotelImages/2601993/-1/86a8bdd89c9452ecd5ac2b95f14026e1.jpg?ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/62de1eaf7b1dade7336dd2cc8b14093e.jpg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/af45924b1606cc8d9aeaeeb39a8c6a34.jpg?ce=0&s=600x",
+      "/danang-2027/stays-a/furama-1.jpg",
+      "/danang-2027/stays-a/furama-2.jpg",
+      "/danang-2027/stays-a/furama-3.jpg",
     ],
     facts: [
       "375㎡ · 침실 3 · 욕실 3 · 전용 수영장",
@@ -312,9 +312,9 @@ const finalists = [
     price: "2027 설 가격 재확인 필요",
     target: "특가 목표 ≤ 1,800,000원",
     images: [
-      "https://pix8.agoda.net/hotelImages/25972885/-1/66e1d4bbc877ffd8ba481e2edcc76f96.jpg?ca=20&ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/25972885/689622160/5ee1d96893af19fbb5b894c2f9b63962.jpg?ce=0&s=600x",
-      "https://pix8.agoda.net/hotelImages/25972885/-1/694131d196944c44c77c5903284964a1.jpg?ca=20&ce=0&s=600x",
+      "/danang-2027/stays-a/abogo-1.jpg",
+      "/danang-2027/stays-a/abogo-2.jpg",
+      "/danang-2027/stays-a/abogo-3.jpg",
     ],
     facts: [
       "침실 3 · 킹 1 + 싱글 4 · 전용 수영장",
@@ -534,7 +534,7 @@ const staysCopy = {
     heroTitleSecond: "풀빌라 후보 검토",
     heroSummary: "4박 · 성인 5명 · 만 6세 어린이 2명 · 숙소 예산 200만 원 이내",
     heroAlt: "The Ocean Villas 3베드룸 풀빌라",
-    verdictBadge: "최종 1순위",
+    verdictBadge: "A안 1순위",
     verdictRoom: "3베드룸 풀빌라",
     verdictText: "현재 확인한 가격 자료 중 ‘3베드룸 + 전용 풀 + 리조트 시설’ 조건에 가장 가까운 후보입니다. 표시 총액은 예산보다 약 8.5만 원 높아 무료 취소 특가를 기다릴 가치가 있습니다.",
     verdictPrice: "약 208.5만 원",
@@ -592,9 +592,9 @@ const staysCopy = {
     sourceTitle: "벤치마크 근거 모음",
     sourceDesc: "공식 자료, 예약 플랫폼 검증 후기, 한국어 후기와 커뮤니티 반론을 함께 확인했습니다.",
     disclaimer: "네이버 블로그·카페는 검색 로봇 접근 제한으로 본문을 직접 검증하지 못한 자료가 있어 점수 근거에서 제외했습니다. 플랫폼 요약과 커뮤니티 글은 개인 경험이므로, 여러 출처에서 반복되는 항목만 판단에 사용했습니다.",
-    nextTitle: "숙소를 정하면 일정으로 넘어갑니다.",
-    nextDesc: "지금은 동선보다 숙소 선택이 우선입니다.",
-    nextLink: "일정 페이지 보기 →",
+    nextTitle: "A안의 강점은 이동 없는 완전한 사적 휴양입니다.",
+    nextDesc: "다만 가족 의견처럼 4박 내내 같은 집·같은 풀이 반복될 수 있습니다. 편안함보다 여행의 장면 변화를 더 원하면 현재 종합 1순위인 D안과 비교하는 것이 맞습니다.",
+    nextLink: "D안과 비교하기 →",
     homeLink: "← 여행 홈",
     footer: "가격과 조건은 바뀝니다. 결제 직전 다시 확인합니다.",
   },
@@ -605,7 +605,7 @@ const staysCopy = {
     heroTitleSecond: "Pool-villa review",
     heroSummary: "4 nights · 5 adults · two children age 6 · stay budget up to KRW 2M",
     heroAlt: "Three-bedroom pool villa at The Ocean Villas",
-    verdictBadge: "Final No. 1",
+    verdictBadge: "Plan A No. 1",
     verdictRoom: "Three-bedroom pool villa",
     verdictText: "Of the price references reviewed, this is the closest match to our brief: three bedrooms, a private pool and a full resort campus. The displayed total is about KRW 85K above budget, so it is worth watching for a flexible deal.",
     verdictPrice: "Approx. KRW 2.085M",
@@ -663,9 +663,9 @@ const staysCopy = {
     sourceTitle: "Research source library",
     sourceDesc: "Official information, verified booking reviews, Korean reviews and community counterpoints were checked together.",
     disclaimer: "Naver Blog and Cafe pages blocked direct crawler verification, so inaccessible posts were excluded from scoring. Platform summaries and community posts are personal experiences; only recurring themes across multiple sources were used.",
-    nextTitle: "Once the stay is chosen, we move to the itinerary.",
-    nextDesc: "The stay comes before the sightseeing route for now.",
-    nextLink: "Open itinerary page →",
+    nextTitle: "Plan A wins on effortless private downtime.",
+    nextDesc: "The trade-off is the family's concern that the same house and pool may start to repeat over four nights. Compare it with overall No. 1 Plan D if variety matters more than maximum ease.",
+    nextLink: "Compare Plan D →",
     homeLink: "← Trip home",
     footer: "Prices and terms can change. Reconfirm everything before payment.",
   },
@@ -687,7 +687,7 @@ export function StaysPageContent({ locale }: { locale: "ko" | "en" }) {
       <StayPlanTabs active="a" locale={locale} />
 
       <section className="stays-hero">
-        <img src="https://dmaevvtdousx6.cloudfront.net/uploads/2018/08/1b.1.jpg" alt={copy.heroAlt} />
+        <img src="/danang-2027/stays-a/ocean-1.png" alt={copy.heroAlt} />
         <div className="stays-hero-overlay" />
         <div className="site-shell stays-hero-copy">
           <div className="status-line light-line">
@@ -881,7 +881,7 @@ export function StaysPageContent({ locale }: { locale: "ko" | "en" }) {
 
       <section className="site-shell next-page-callout">
         <div><p className="overline">NEXT</p><h2>{copy.nextTitle}</h2><p>{copy.nextDesc}</p></div>
-        <Link className="secondary-link" href={`${tripBase}itinerary/`}>{copy.nextLink}</Link>
+        <Link className="secondary-link" href={`${tripBase}stays-d/`}>{copy.nextLink}</Link>
       </section>
 
       <footer className="trip-footer site-shell">

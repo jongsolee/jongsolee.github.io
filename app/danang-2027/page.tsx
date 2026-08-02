@@ -10,21 +10,39 @@ export const metadata: Metadata = {
 const sections = [
   {
     href: "/danang-2027/stays/",
-    label: "숙소",
-    status: "검토 중",
+    label: "숙소 A안",
+    status: "한 곳 집중",
     statusTone: "review",
-    title: "풀빌라 후보와 최종 3선",
-    description: "후보 6곳의 실제 가격·객실·후기·리조트 인프라를 같은 기준으로 비교합니다.",
-    meta: "최종 1순위 · The Ocean Villas",
+    title: "풀빌라 한 곳에서 4박",
+    description: "짐 이동 없이 3베드룸과 전용 풀을 온전히 누리는 가장 편안한 안입니다.",
+    meta: "안별 1순위 · The Ocean Villas · 약 200만 원",
   },
   {
     href: "/danang-2027/stays-b/",
     label: "숙소 B안",
-    status: "신규 검토",
+    status: "휴양 전환",
     statusTone: "review",
     title: "리조트 2박 + 풀빌라 2박",
     description: "A팀 선입실과 B팀 금요일 합류를 반영해 리조트 방 2개를 2박 쓰고 풀빌라로 옮기는 조합을 비교합니다.",
-    meta: "현재 1순위 · Meliá + The Ocean Villas",
+    meta: "안별 1순위 · Meliá + The Ocean Villas · 164–176만 원",
+  },
+  {
+    href: "/danang-2027/stays-c/",
+    label: "숙소 C안",
+    status: "이동 최소",
+    statusTone: "review",
+    title: "리조트 한 곳에서 4박",
+    description: "방 2개를 4박 유지하면서 이동 없이 리조트 자체를 여행처럼 누릴 후보를 비교합니다.",
+    meta: "안별 1순위 · New World Hoiana · 특가 176–184만 원",
+  },
+  {
+    href: "/danang-2027/stays-d/",
+    label: "숙소 D안",
+    status: "종합 1순위",
+    statusTone: "available",
+    title: "로컬 시내 2박 + 풀빌라 2박",
+    description: "앞 2박은 시장·카페·한강 생활권, 뒤 2박은 3베드룸 전용 풀로 여행의 온도를 바꿉니다.",
+    meta: "종합 1순위 · Cozy + The Ocean Villas · 149–170만 원",
   },
   {
     href: "/danang-2027/itinerary/",
@@ -77,27 +95,37 @@ export default function DanangTripHome() {
           <div><dt>숙박</dt><dd>2027. 2. 4(목)–8(월)</dd><span>4박 · 체크아웃 2월 8일</span></div>
           <div><dt>가족</dt><dd>성인 5명 · 어린이 2명</dd><span>어린이 만 6세</span></div>
           <div><dt>숙소 예산</dt><dd>150만 원 전후</dd><span>상한 200만 원 · 특가 대기 가능</span></div>
-          <div><dt>숙소 조건</dt><dd>3베드룸 풀빌라 우선</dd><span>깨끗함 · 버기 · 리조트 시설</span></div>
+          <div><dt>선택 기준</dt><dd>어른과 아이 모두 기억할 변화</dd><span>깨끗함 · 로컬 경험 · 풀빌라 힐링</span></div>
         </dl>
       </section>
 
       <section className="site-shell latest-decision">
         <div className="latest-image">
           <img
-            src="https://dmaevvtdousx6.cloudfront.net/uploads/2018/08/1b.1.jpg"
-            alt="The Ocean Villas 3베드룸 풀빌라"
+            src="/danang-2027/stays-d/cozy-1.jpg"
+            alt="다낭 시내의 Cozy Danang Boutique Hotel"
           />
         </div>
         <div className="latest-copy">
           <p className="overline">LATEST DECISION</p>
-          <span className="status-badge review">숙소 검토 중</span>
-          <h2>현재 1순위는<br />The Ocean Villas입니다.</h2>
+          <span className="status-badge available">종합 1순위 · D안</span>
+          <h2>앞은 다낭답게,<br />뒤는 확실히 쉽니다.</h2>
           <p>
-            정확한 일정으로 확인된 3베드룸 풀빌라 중, 전용 풀과 리조트 시설을 유지하면서
-            예산에 가장 가까웠습니다. 세금 포함 표시가 약 208만 원이라 특가 목표를 200만 원
-            이하로 잡았습니다.
+            4박을 한 숙소에서 보내면 편하지만 장면이 반복될 수 있습니다. D안은 Cozy에서 시장·카페·한강을
+            걸어서 누린 뒤 The Ocean Villas로 옮겨, 성인은 로컬과 휴식을 모두 얻고 아이는 여행이 한 번 더
+            시작되는 느낌을 받습니다. 예상 숙박비도 149–170만 원으로 가장 균형이 좋습니다.
           </p>
-          <Link className="primary-link" href="/danang-2027/stays/">숙소 비교 전체 보기 →</Link>
+          <Link className="primary-link" href="/danang-2027/stays-d/">D안 상세 검토 →</Link>
+        </div>
+      </section>
+
+      <section className="site-shell plan-overview" aria-labelledby="plan-overview-title">
+        <div className="section-title-row"><div><p className="overline">A–D AT A GLANCE</p><h2 id="plan-overview-title">네 안은 장점이 서로 다릅니다.</h2></div><span>현재 가족 의견까지 반영한 판단</span></div>
+        <div className="plan-overview-grid">
+          <Link href="/danang-2027/stays/"><b>A</b><h3>가장 편안함</h3><p>짐 이동 0회 · 전용 풀 4박</p><small>단점 · 장면이 반복될 수 있음</small></Link>
+          <Link href="/danang-2027/stays-b/"><b>B</b><h3>리조트도 풀빌라도</h3><p>시설형 리조트 2박 · 사적 휴양 2박</p><small>단점 · 앞 2박도 휴양지라 대비는 중간</small></Link>
+          <Link href="/danang-2027/stays-c/"><b>C</b><h3>가장 안정적</h3><p>좋은 리조트 한 곳 · 방 2개 유지</p><small>단점 · 프라이버시와 변화가 적음</small></Link>
+          <Link className="recommended" href="/danang-2027/stays-d/"><b>D</b><h3>가장 다채로움</h3><p>로컬 생활 2박 · 풀빌라 힐링 2박</p><small>종합 1순위 · 어른과 아이의 기억 균형</small></Link>
         </div>
       </section>
 

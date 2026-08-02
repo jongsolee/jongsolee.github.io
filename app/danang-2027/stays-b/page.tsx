@@ -84,9 +84,9 @@ const resortCandidates = [
       en: "A clear resort upgrade. An average all-in rate at or below KRW 240K per room, per night keeps the full plan within KRW 2M.",
     },
     images: [
-      "https://cache.marriott.com/content/dam/marriott-renditions/DADSI/dadsi-exterior-1896-hor-wide.jpg?downsize=2880px%3A%2A&interpolation=progressive-bilinear&output-quality=70",
-      "https://cache.marriott.com/is/image/marriotts7prod/dadsi-infinity-pool-9325%3AClassic-Hor?fit=constrain&wid=1300",
-      "https://cache.marriott.com/is/image/marriotts7prod/si-dadsi-she-dadsi-family-wat31382-78690%3AClassic-Hor?fit=constrain&wid=1300",
+      "/danang-2027/stays-b/sheraton-1.jpg",
+      "/danang-2027/stays-b/sheraton-2.jpg",
+      "/danang-2027/stays-b/sheraton-3.jpg",
     ],
     href: "https://www.marriott.com/en-us/hotels/dadsi-sheraton-grand-danang-beach-resort-and-spa/overview/",
   },
@@ -113,9 +113,9 @@ const resortCandidates = [
       en: "Team B's main use window is Friday afternoon to Saturday noon. Official guidance for included packages runs from 3 p.m. check-in day to noon on checkout day.",
     },
     images: [
-      "https://ignewsimg.s3.ap-northeast-1.wasabisys.com/Cqczx4Wv7zc",
-      "https://ignewsimg.s3.ap-northeast-1.wasabisys.com/Cqczx4XPdgP",
-      "https://ignewsimg.s3.ap-northeast-1.wasabisys.com/Cqczx4hPh4F",
+      "/danang-2027/stays-b/mikazuki-1.jpg",
+      "/danang-2027/stays-b/mikazuki-2.jpg",
+      "/danang-2027/stays-b/mikazuki-3.jpg",
     ],
     href: "https://mikazuki.com.vn/en/",
   },
@@ -142,9 +142,9 @@ const resortCandidates = [
       en: "The facilities and service are the safest bet, but adding two pool-villa nights makes the KRW 2M ceiling unrealistic.",
     },
     images: [
-      "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/05/21/2145/DANHR-P0776-Aerial-Pool-Beach.jpg/DANHR-P0776-Aerial-Pool-Beach.16x9.jpg?imwidth=2560",
-      "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2025/08/04/2149/DANHR-P1234-Boy-Guestroom-Tent.jpg/DANHR-P1234-Boy-Guestroom-Tent.4x3.jpg?imwidth=2560",
-      "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/05/21/2145/DANHR-P0782-Pool-Beach-Sunset.jpg/DANHR-P0782-Pool-Beach-Sunset.4x3.jpg?imwidth=2560",
+      "/danang-2027/stays-b/hyatt-1.jpg",
+      "/danang-2027/stays-b/hyatt-2.jpg",
+      "/danang-2027/stays-b/hyatt-3.jpg",
     ],
     href: "https://www.hyatt.com/hyatt-regency/en-US/danhr-hyatt-regency-danang-resort-and-spa/family-stay-and-activities",
   },
@@ -172,8 +172,8 @@ const pairings = [
     },
     images: [
       "/danang-2027/stays-b/melia-1.jpg",
-      "https://pix8.agoda.net/hotelImages/267905/-1/f49439f98a9e017fa6d0499a1f5e1c3d.png?ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/267905/3127089/d8969035667f140dc8dcf2e4b69401c0.jpeg?s=600x",
+      "/danang-2027/stays-a/ocean-1.png",
+      "/danang-2027/stays-a/ocean-3.jpg",
     ],
   },
   {
@@ -197,8 +197,8 @@ const pairings = [
     },
     images: [
       "/danang-2027/stays-b/melia-2.jpg",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/86a8bdd89c9452ecd5ac2b95f14026e1.jpg?ce=0&s=1024x768",
-      "https://pix8.agoda.net/hotelImages/2601993/-1/62de1eaf7b1dade7336dd2cc8b14093e.jpg?ce=0&s=600x",
+      "/danang-2027/stays-a/furama-1.jpg",
+      "/danang-2027/stays-a/furama-2.jpg",
     ],
   },
   {
@@ -221,9 +221,9 @@ const pairings = [
       en: ["High chance of exceeding KRW 2M", "First two nights away from the city", "Do not solve the budget by forcing Team A into one room"],
     },
     images: [
-      "https://cache.marriott.com/is/image/marriotts7prod/dadsi-infinity-pool-9325%3AClassic-Hor?fit=constrain&wid=1300",
-      "https://cache.marriott.com/is/image/marriotts7prod/si-dadsi-she-dadsi-family-wat31382-78690%3AClassic-Hor?fit=constrain&wid=1300",
-      "https://pix8.agoda.net/hotelImages/267905/-1/f49439f98a9e017fa6d0499a1f5e1c3d.png?ce=0&s=1024x768",
+      "/danang-2027/stays-b/sheraton-2.jpg",
+      "/danang-2027/stays-b/sheraton-3.jpg",
+      "/danang-2027/stays-a/ocean-1.png",
     ],
   },
 ] as const;
@@ -313,11 +313,11 @@ const copy = {
     sourceTitle: "검토 근거",
     sourceDesc: "공식 시설 정보, 최근 숙박 후기, 공개 가격 자료를 분리해 확인했습니다.",
     disclaimer: "가격은 2026년 8월에 확인한 공개 참고가와 A안의 2027년 설 가격 자료를 결합한 목표 범위입니다. 실제 결제 전에는 세금, 조식, 엑스트라베드와 어린이 정책을 같은 조건으로 다시 비교해야 합니다.",
-    nextTitle: "현재 권고: A안보다 B안을 우선 검토",
-    nextDesc: "풀빌라 4박의 편안함은 줄지만, 아이 기억과 여행의 장면은 확실히 더 다양해집니다. Meliá 방 2개를 2박 쓰는 비용과 7인 추가비용의 합계가 90만 원을 넘으면 A안과 다시 비교하는 것이 좋습니다.",
-    aLink: "A안 다시 보기",
+    nextTitle: "B안은 리조트 시설과 풀빌라를 모두 놓치기 싫을 때",
+    nextDesc: "아이의 물놀이 경험은 네 안 중 가장 촘촘하지만, 앞뒤 모두 휴양지라 장면의 대비는 D안보다 약합니다. 로컬 다낭까지 여행에 넣고 싶다면 D안을 먼저 비교하는 것이 좋습니다.",
+    aLink: "D안과 비교하기",
     homeLink: "← 여행 홈",
-    footer: "가족 의견을 반영한 뒤 공개본에 올립니다.",
+    footer: "가격과 객실 조건은 결제 직전에 다시 확인합니다.",
   },
   en: {
     reviewStatus: "Plan B for family review",
@@ -360,11 +360,11 @@ const copy = {
     sourceTitle: "Evidence library",
     sourceDesc: "Official facility information, recent stay reviews and public price references were checked separately.",
     disclaimer: "Prices combine public references checked in Aug 2026 with the Lunar New Year pricing research already used in Plan A. Before payment, compare taxes, breakfast, extra beds and child policies on identical terms.",
-    nextTitle: "Current recommendation: review Plan B before Plan A",
-    nextDesc: "It gives up the simplicity of four villa nights, but creates more distinct memories for the children. If two Meliá rooms for two nights plus seven-person surcharges exceed KRW 900K, compare it with Plan A again.",
-    aLink: "Review Plan A",
+    nextTitle: "Choose Plan B when neither resort facilities nor villa privacy can be missed",
+    nextDesc: "It packs in the most water-and-resort time for the children, but both halves still feel like a holiday compound. Compare Plan D first if local Da Nang belongs in the trip.",
+    aLink: "Compare Plan D",
     homeLink: "← Trip home",
-    footer: "Publish only after the family reviews the draft.",
+    footer: "Reconfirm prices and room terms immediately before payment.",
   },
 } as const;
 
@@ -549,7 +549,7 @@ export function StaysBPageContent({ locale }: { locale: Locale }) {
             <p>{c.scheduleDesc}</p>
           </div>
           <ol className="b-schedule-list">
-            <li><span>THU · 2/4</span><p><b>{english ? "Team A checks into the resort" : "A팀 리조트 체크인"}</b>{english ? "Two rooms, light dinner and an early resort night." : "2개 객실을 잡고, 가벼운 저녁 뒤 리조트에서 쉽니다."}</p></li>
+            <li><span>THU · 2/4</span><p><b>{english ? "Team A checks into the resort" : "A팀 리조트 체크인"}</b>{english ? "Two rooms, light dinner and an early resort night." : "방 2개에 체크인하고, 가벼운 저녁 뒤 리조트에서 쉽니다."}</p></li>
             <li><span>FRI · 2/5</span><p><b>{english ? "Team B joins early" : "B팀 아침 합류"}</b>{english ? "Leave luggage, have brunch, then spend the afternoon and evening at the resort." : "짐을 맡기고 브런치 뒤 오후부터 리조트 시설을 충분히 씁니다."}</p></li>
             <li><span>SAT · 2/6</span><p><b>{english ? "One accommodation move" : "숙소 이동은 이날 한 번"}</b>{english ? "Checkout → lunch → groceries → pool-villa check-in. No major sightseeing." : "체크아웃 → 점심 → 장보기 → 풀빌라 체크인. 큰 관광은 넣지 않습니다."}</p></li>
             <li><span>SUN · 2/7</span><p><b>{english ? "Full villa day" : "풀빌라 온전한 하루"}</b>{english ? "Private pool and family time first; Hoi An only if everyone wants it." : "전용 풀과 가족 시간을 우선하고, 모두 원할 때만 호이안을 가볍게 다녀옵니다."}</p></li>
@@ -577,7 +577,7 @@ export function StaysBPageContent({ locale }: { locale: Locale }) {
 
       <section className="site-shell b-final-callout">
         <div><p className="overline">BOTTOM LINE</p><h2>{c.nextTitle}</h2><p>{c.nextDesc}</p></div>
-        <Link className="secondary-link" href={`${base}stays/`}>{c.aLink}</Link>
+        <Link className="secondary-link" href={`${base}stays-d/`}>{c.aLink}</Link>
       </section>
 
       <footer className="trip-footer site-shell">
