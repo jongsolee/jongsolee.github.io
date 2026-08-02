@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/126m_fu.km2ae.css","style"]
+:HL["/_next/static/chunks/0t48hzs_6fshe.css","style"]
+:HL["/danang-2027/stays-c/hoiana-2.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"danang-2027","param":null,"prefetchHints":0,"slots":{"children":{"name":"stays-c","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Bqry7IFFK-jlKpHhRKeVD"}
